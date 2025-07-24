@@ -27,6 +27,18 @@ namespace PracticeCPlusPlusCodingTest
 			double expected;
 			const wchar_t* description;
 		};
+
+		TEST_METHOD(SimpleTestMathAddIntegers)
+		{
+			int result = Math::add(3, 5);
+			Assert::AreEqual(8, result, L"3 + 5 should equal 8", LINE_INFO());
+		}
+
+		TEST_METHOD(SimpleTestMathAddDoubles)
+		{
+			double result = Math::add(2.5, 4.6);
+			Assert::AreEqual(7.1, result, L"2.5 + 4.6 should equal 7.1", LINE_INFO());
+		}
 		
 		TEST_METHOD(TestMathAddIntegers)
 		{
