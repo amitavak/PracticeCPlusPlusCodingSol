@@ -9,5 +9,6 @@
 
 // add headers that you want to pre-compile here
 #include "../PracticeCPlusPlusCoding/Math.h"
+#include "../PracticeCPlusPlusCoding/FindMaxNumber.h"
 
 #endif //PCH_H
